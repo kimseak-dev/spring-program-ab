@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af78a691-7b99-471d-950d-1040e6c4306a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_haggaishachar_program_ab_v1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/program-ab.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bots/super/aimlif/bot_profile.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/super/aimlif/bot_profile.aiml.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program-ab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/program-ab.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571367413637</updated>
-      <workItem from="1571367414903" duration="7028000" />
+      <workItem from="1571367414903" duration="8055000" />
     </task>
     <servers />
   </component>
