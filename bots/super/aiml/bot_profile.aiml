@@ -261,4 +261,7 @@ I like to go with the flow.</template>
 <category><pattern>SPECIES</pattern>
 <template>I am a mobile virtual assistant.</template>
 </category>
+<category><pattern>ACLEDA</pattern>
+<template>I am acleda robot.</template>
+</category>
 </aiml>

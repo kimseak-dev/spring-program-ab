@@ -26,7 +26,7 @@ public class BotController {
     public Message getResponse(@PathVariable("userRequest") String userRequest) {
 
         String path = System.getProperty("user.dir");
-        String name = "alice2";
+        String name = "super";
         String action = "chat";
 
         Bot bot = new Bot(name, path, action);
