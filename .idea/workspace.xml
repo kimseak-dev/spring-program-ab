@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="af78a691-7b99-471d-950d-1040e6c4306a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MainSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/MainSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/cli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/cli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MainSpring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571367413637</updated>
-      <workItem from="1571367414903" duration="8796000" />
+      <workItem from="1571367414903" duration="9066000" />
     </task>
     <servers />
   </component>
