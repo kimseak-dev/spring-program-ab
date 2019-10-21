@@ -22,21 +22,21 @@ public class BotController {
 
 
 
-//    @RequestMapping(value = "/chat/{userRequest}", method = RequestMethod.GET)
-//    public Message getResponse(@PathVariable("userRequest") String userRequest) {
-//
-//        String path = System.getProperty("user.dir");
-//        String name = "alice2";
-//        String action = "chat";
-//
-//        Bot bot = new Bot(name, path, action);
-//        bot.brain.nodeStats();
-//        Chat chatSession = new Chat(bot);
-//        String response = chatSession.multisentenceRespond(userRequest);
-//        Message msg = new Message(response);
-//
-//        return msg;
-//    }
+    @RequestMapping(value = "/chat/{userRequest}", method = RequestMethod.GET)
+    public Message getResponse(@PathVariable("userRequest") String userRequest) {
+
+        String path = System.getProperty("user.dir");
+        String name = "super";
+        String action = "chat";
+
+        Bot bot = new Bot(name, path, action);
+        bot.brain.nodeStats();
+        Chat chatSession = new Chat(bot);
+        String response = chatSession.multisentenceRespond(userRequest);
+        Message msg = new Message(response);
+
+        return msg;
+    }
 
 
 }
