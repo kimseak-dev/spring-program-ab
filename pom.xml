@@ -98,7 +98,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>org.alicebot</mainClass>
+							<mainClass>org.alicebot.ab.MainSpring</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
