@@ -89,7 +89,23 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+				<directory>bots</directory>
+				<targetPath>bots</targetPath>
+			</resource>
+		</resources>
+
 		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.3</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -97,14 +113,13 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<addClasspath>true</addClasspath>
-
-							<mainClass>org.alicebot.ab</mainClass>
+							<mainClass>org.alicebot.ab.AB</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
 
 </project>
