@@ -24,14 +24,25 @@
 <category>
 <pattern>ភាសាខ្មែរ</pattern>
 <template>
-សូមជ្រើសរើសប្រធានបទឬ វាយសំនួររបស់លោកអ្នកនៅទីនេះ
+<text>សូមជ្រើសរើសប្រធានបទឬ វាយសំនួររបស់លោកអ្នកនៅទីនេះ</text>
+<li>sddf1</li>
+<li>sddf2</li>
+<li>sddf3</li>
+<code>S001</code>
 </template>
 </category>
+
+
 <category>
-<pattern>Khmer</pattern>
+<pattern>AnyseToken</pattern>
 <template>
-សូមជ្រើសរើសប្រធានបទឬ វាយសំនួររបស់លោកអ្នកនៅទីនេះ
+<text>Sample Text</text>
+<li>Product 1</li>
+<li>Product 2</li>
+<li>Product 3</li>
+<code>S001</code>
 </template>
 </category>
+
 
 </aiml>

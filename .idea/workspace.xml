@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af78a691-7b99-471d-950d-1040e6c4306a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/AITextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/ClientMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/acleda/aiml/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aiml/bot_profile.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/acleda/aimlif/bot_profile.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aimlif/bot_profile.aiml.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program-ab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/program-ab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/bot_profile.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/bot_profile.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/bot_profile.aiml.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/model/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/program-ab-2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/program-ab-2.0.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +136,8 @@
       <workItem from="1571877540470" duration="1744000" />
       <workItem from="1571879324877" duration="5367000" />
       <workItem from="1571963647440" duration="7310000" />
-      <workItem from="1571977692127" duration="514000" />
+      <workItem from="1571977692127" duration="8104000" />
+      <workItem from="1571991668764" duration="1294000" />
     </task>
     <servers />
   </component>
@@ -157,6 +169,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Chat.java</url>
           <line>181</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/ClientMessage.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

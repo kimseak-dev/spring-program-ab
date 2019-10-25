@@ -3,10 +3,15 @@ package org.alicebot.ab.controller;
 
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
+import org.alicebot.ab.model.AITextUtil;
+import org.alicebot.ab.model.ClientMessage;
 import org.alicebot.ab.model.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @RestController
 @RequestMapping("/bot")
@@ -43,9 +48,48 @@ public class BotController {
         } else if (msg.getText().equalsIgnoreCase("Feel free to select topic or type in your question and I'll help you out.")) {
             msg.setType("productionList");
         }
+        return msg;
+    }
+
+
+
+    @RequestMapping(value = "/post/chat", method = RequestMethod.POST)
+    public Message postChat(@RequestBody ClientMessage clientMessage){
+        String response = chatSession.multisentenceRespond(clientMessage.getText());
+        Message msg = new Message(response);
+        System.out.print(clientMessage.getText());
+        if (msg.getText().equalsIgnoreCase("Hello! I am ACLEDA Chatbot, your robot assistant? Choose your language")) {
+            msg.setType("lang");
+        } else if (msg.getText().equalsIgnoreCase("Feel free to select topic or type in your question and I'll help you out.")) {
+            msg.setType("productionList");
+        }
+
+        String[] sentences = msg.getText().split("<li>");
+
+        System.out.println(sentences);
+
+
+        String str = msg.getText();
+        Pattern pattern = Pattern.compile("<li>(.*?)</li>", Pattern.DOTALL);
+        Matcher matcher = pattern.matcher(str);
+        while (matcher.find()) {
+            System.out.println(matcher.group(1));
+        }
 
         return msg;
     }
+
+
+    @RequestMapping(value = "/post/chat/anylse", method = RequestMethod.POST)
+    public AITextUtil postChatAnalyseToken(@RequestBody ClientMessage clientMessage){
+        String response = chatSession.multisentenceRespond(clientMessage.getText());
+
+        AITextUtil msg = new  AITextUtil();
+        msg.analyseAIStringToken(response);
+        return msg;
+    }
+
+
 
 
 
