@@ -17,7 +17,7 @@ public class BotController {
 
     public BotController() {
         String path = System.getProperty("user.dir");
-        String name = "super";
+        String name = "acleda";
         String action = "chat";
 
         Bot bot = new Bot(name, path, action);
