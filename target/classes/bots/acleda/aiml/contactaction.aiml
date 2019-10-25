@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: contactaction.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: February 20, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>NEW CONTACT TEST ONE</pattern>
+<template>Adding a new contact.
+<addinfo>
+<displayname>Alan Turing</displayname>
+<dialnumber>212-1912</dialnumber>
+<phonetype>mobile</phonetype>
+<emailaddress>alan.turing@manchester.edu</emailaddress>
+<emailtype>work</emailtype>
+<birthday>June 23, 1912</birthday>
+</addinfo></template>
+</category>
+<category><pattern>NEW CONTACT TEST</pattern>
+<template>Adding a new contact.
+<addinfo>
+<displayname>XYZ</displayname>
+<dialnumber>212-1912</dialnumber>
+<phonetype>mobile</phonetype>
+<emailaddress>xyz@abc.de</emailaddress>
+<emailtype>work</emailtype>
+<birthday>June 23, 1992</birthday>
+</addinfo></template>
+</category>
+<category><pattern>CONTACTS TEST</pattern>
+<template>Adding new contacts.
+<addinfo>
+<displayname>Howard Johnson</displayname>
+<dialnumber>111-1111</dialnumber>
+<phonetype>mobile</phonetype>
+<emailaddress>howard@hj.com</emailaddress>
+<emailtype>work</emailtype>
+<birthday>June 12, 1901</birthday>
+</addinfo>
+<addinfo>
+<displayname>Lyndon Johnson</displayname>
+<dialnumber>222-2222</dialnumber>
+<phonetype>mobile</phonetype>
+<emailaddress>lbj@whitehouse.gov</emailaddress>
+<emailtype>work</emailtype>
+<birthday>January 12, 1911</birthday>
+</addinfo>
+<addinfo>
+<displayname>Dr. Phil Calvin McGraw</displayname>
+<dialnumber>333-333</dialnumber>
+<phonetype>mobile</phonetype>
+<emailaddress>drphil@own.com</emailaddress>
+<emailtype>work</emailtype>
+<birthday>September 1, 1950</birthday>
+</addinfo></template>
+</category>
+
+
+
+
+
+</aiml>

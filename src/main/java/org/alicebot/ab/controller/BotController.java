@@ -13,6 +13,17 @@ import org.springframework.web.bind.annotation.*;
 public class BotController {
 
     private static final Logger log = LoggerFactory.getLogger(BotController.class);
+    private Chat chatSession;
+
+    public BotController() {
+        String path = System.getProperty("user.dir");
+        String name = "super";
+        String action = "chat";
+
+        Bot bot = new Bot(name, path, action);
+        bot.brain.nodeStats();
+        chatSession = new Chat(bot);
+    }
 
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public String hello() {
@@ -24,19 +35,19 @@ public class BotController {
 
     @RequestMapping(value = "/chat/{userRequest}", method = RequestMethod.GET)
     public Message getResponse(@PathVariable("userRequest") String userRequest) {
-
-        String path = System.getProperty("user.dir");
-        String name = "super";
-        String action = "chat";
-
-        Bot bot = new Bot(name, path, action);
-        bot.brain.nodeStats();
-        Chat chatSession = new Chat(bot);
         String response = chatSession.multisentenceRespond(userRequest);
         Message msg = new Message(response);
+        System.out.print(userRequest);
+        if (msg.getText().equalsIgnoreCase("Hello! I am ACLEDA Chatbot, your robot assistant? Choose your language")) {
+            msg.setType("lang");
+        } else if (msg.getText().equalsIgnoreCase("Feel free to select topic or type in your question and I'll help you out.")) {
+            msg.setType("productionList");
+        }
 
         return msg;
     }
+
+
 
 
 }

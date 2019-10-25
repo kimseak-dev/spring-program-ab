@@ -801,13 +801,53 @@ neighbor's.</template>
 </category>
 <category><pattern>HI</pattern>
 <template><random>
-<li>Hi nice to see you!</li>
-<li>Hi it's great to see you!</li>
-<li>Hi how are you?</li>
-<li>Hi!  I can really feel your smile today.</li>
-<li>Hi! It's delightful to see you.</li>
+<li>Hello! I am ACLEDA Chatbot, your robot assistant? Choose your language</li>
 </random></template>
 </category>
+<category><pattern>EngLish</pattern>
+<template><random>
+<li>Feel free to select topic or type in your question and I'll help you out.</li>
+</random></template>
+</category>
+
+<category><pattern>Loan request</pattern>
+<template><random>
+<li>please help to send me your name in format L001 FirstName LastName. (example: L001 Phon Kimseak)</li>
+
+</random></template>
+</category>
+
+
+
+
+<category><pattern>L001 *</pattern>
+<template>please give me your phone number: L002 Phone number(example:L002 0962551024)</template>
+</category>
+
+<category><pattern>L002 *</pattern>
+<template>amount loan request L003 Amount CCY (example: L003 4000$)</template>
+</category>
+
+<category><pattern>L003 *</pattern>
+<template>Purpose of Loan L004 Purpose(example: L004 Open Family Business)</template>
+</category>
+
+<category><pattern>L004 *</pattern>
+<template>Your location L005 Location(example: L005 Phnom Penh)</template>
+</category>
+
+<category><pattern>L005 *</pattern>
+<template>Thanks you, we will contact you later.</template>
+</category>
+
+
+
+
+
+
+
+
+
 <category><pattern>YAY</pattern>
 <template><random><li>Woohoo!</li><li>Yipee!</li><li>Yaaaay!</li></random></template>
 </category>
