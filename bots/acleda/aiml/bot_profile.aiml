@@ -45,4 +45,50 @@
 </category>
 
 
+<category>
+<pattern>T001</pattern>
+<template>
+<text>Sample Text</text>
+<context>S001</context>
+</template>
+</category>
+
+<category>
+<pattern>T002</pattern>
+<template>
+<text>Sample Text</text>
+<context>S001</context>
+
+<products>
+
+<product>
+<txt>product 001</txt>
+<img>img</img>
+<code>P001</code>
+</product>
+
+<product>
+<txt>product 002</txt>
+<img>img222</img>
+<code>P002222</code>
+</product>
+
+<product>
+<txt>ddd 002</txt>
+<img>img222</img>
+<code>P002224</code>
+</product>
+
+<product>
+<txt>ddd 007777777</txt>
+<img>img222</img>
+<code>P002224</code>
+</product>
+
+</products>
+</template>
+</category>
+
+
+
 </aiml>

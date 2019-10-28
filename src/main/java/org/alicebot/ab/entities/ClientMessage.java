@@ -1,9 +1,10 @@
-package org.alicebot.ab.model;
+package org.alicebot.ab.entities;
 
 public class ClientMessage {
    private String  code;
    private String text;
    private String service;
+
 
     public ClientMessage(String code, String text, String service) {
         this.code = code;

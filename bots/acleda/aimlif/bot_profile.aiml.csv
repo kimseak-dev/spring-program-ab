@@ -1,3 +1,5 @@
 0,LOOK LIKE,*,*,I look like a <srai>DEVICE MANUFACTURER</srai> <srai>DEVICE MODEL</srai>.,bot_profile.aiml
 0,ភាសាខ្មែរ,*,*,<text>សូមជ្រើសរើសប្រធានបទឬ វាយសំនួររបស់លោកអ្នកនៅទីនេះ</text>#Newline<li>sddf1</li>#Newline<li>sddf2</li>#Newline<li>sddf3</li>#Newline<code>S001</code>,bot_profile.aiml
 0,ANYSETOKEN,*,*,<text>Sample Text</text>#Newline<li>Product 1</li>#Newline<li>Product 2</li>#Newline<li>Product 3</li>#Newline<code>S001</code>,bot_profile.aiml
+0,T001,*,*,<text>Sample Text</text>#Newline<context>S001</context>,bot_profile.aiml
+0,T002,*,*,<text>Sample Text</text>#Newline<context>S001</context>#Newline#Newline<products>#Newline#Newline<product>#Newline<txt>product 001</txt>#Newline<img>img</img>#Newline<code>P001</code>#Newline</product>#Newline#Newline<product>#Newline<txt>product 002</txt>#Newline<img>img222</img>#Newline<code>P002222</code>#Newline</product>#Newline#Newline<product>#Newline<txt>ddd 002</txt>#Newline<img>img222</img>#Newline<code>P002224</code>#Newline</product>#Newline#Newline<product>#Newline<txt>ddd 007777777</txt>#Newline<img>img222</img>#Newline<code>P002224</code>#Newline</product>#Newline#Newline</products>,bot_profile.aiml
