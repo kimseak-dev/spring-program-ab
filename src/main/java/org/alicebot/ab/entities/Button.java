@@ -1,10 +1,15 @@
 package org.alicebot.ab.entities;
 
-public class UserOption {
-    private String text;
-    private String code;
+public class Button {
+    String text;
+    String code;
 
-    public UserOption() {
+    public Button() {
+    }
+
+    public Button(String text, String code) {
+        this.text = text;
+        this.code = code;
     }
 
     public String getText() {

@@ -20,6 +20,6 @@
 </category>
 
 <category><pattern>test</pattern>
-<template>test</template>
-</category>
+           <template>test</template>
+           </category>
 </aiml>

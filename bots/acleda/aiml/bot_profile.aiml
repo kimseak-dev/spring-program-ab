@@ -16,78 +16,55 @@
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
 
-<category><pattern>LOOK LIKE</pattern>
-<template>I look like a <srai>DEVICE MANUFACTURER</srai> <srai>DEVICE MODEL</srai>.</template>
+<category>
+<pattern>HI</pattern>
+<template>
+<text>Hello! I'm ACLEDA Bot, your robot assistant! I'm here to assist you. Choose you language</text>
+<context>L0000</context>
+<usropts>
+<usropt>
+<txt>ភាសាខ្មែរ</txt>
+<code>L0001</code>
+</usropt>
+<usropt>
+<txt>English</txt>
+<code>L0002</code>
+</usropt>
+</usropts>
+</template>
 </category>
 
-
 <category>
-<pattern>ភាសាខ្មែរ</pattern>
+<pattern>L0001ភាសាខ្មែរ</pattern>
 <template>
 <text>សូមជ្រើសរើសប្រធានបទឬ វាយសំនួររបស់លោកអ្នកនៅទីនេះ</text>
-<li>sddf1</li>
-<li>sddf2</li>
-<li>sddf3</li>
-<code>S001</code>
-</template>
-</category>
-
-
-<category>
-<pattern>AnyseToken</pattern>
-<template>
-<text>Sample Text</text>
-<li>Product 1</li>
-<li>Product 2</li>
-<li>Product 3</li>
-<code>S001</code>
-</template>
-</category>
-
-
-<category>
-<pattern>T001</pattern>
-<template>
-<text>Sample Text</text>
-<context>S001</context>
-</template>
-</category>
-
-<category>
-<pattern>T002</pattern>
-<template>
-<text>Sample Text</text>
-<context>S001</context>
-
+<context>A00001</context>
 <products>
-
-<product>
-<txt>product 001</txt>
-<img>img</img>
-<code>P001</code>
-</product>
-
-<product>
-<txt>product 002</txt>
-<img>img222</img>
-<code>P002222</code>
-</product>
-
-<product>
-<txt>ddd 002</txt>
-<img>img222</img>
-<code>P002224</code>
-</product>
-
-<product>
-<txt>ddd 007777777</txt>
-<img>img222</img>
-<code>P002224</code>
-</product>
-
+    <product>
+        <txt>ការស្នើសុំកាត ATM</txt>
+        <img>https://www.acledabank.com.kh/</img>
+        <code>P0001</code>
+        <button>ការស្នើសុំកាត ATM</button>
+    </product>
+     <product>
+            <txt>ការបើកគណនីធនាគារ</txt>
+            <img>https://www.acledabank.com.kh/</img>
+            <code>P0002</code>
+            <button>បើកគណនីធនាគារ</button>
+      </product>
+      <product>
+                  <txt>ការបើកគណនីធនាគារ</txt>
+                  <img>https://www.acledabank.com.kh/</img>
+                  <code>P0002</code>
+                  <button>បើកគណនីធនាគារ</button>
+            </product>
 </products>
 </template>
 </category>
+
+
+
+
 
 
 

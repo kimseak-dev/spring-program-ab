@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af78a691-7b99-471d-950d-1040e6c4306a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/AdvertiseProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/StringTokenAnalyser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/UserOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Button.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bots/acleda/aiml/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aiml/bot_profile.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/acleda/aiml/client_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aiml/client_profile.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bots/acleda/aimlif/bot_profile.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aimlif/bot_profile.aiml.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/AITextUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/ClientMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/ClientMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/AdvertiseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/AdvertiseProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/StringTokenAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/StringTokenAnalyser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/UserOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/UserOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/bot_profile.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/client_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/client_profile.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/bot_profile.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/bot_profile.aiml.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/AdvertiseProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/AdvertiseProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/StringTokenAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/StringTokenAnalyser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/UserOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/UserOption.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +47,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NamedScopeManager">
+    <scope name="Seak" pattern="" />
+  </component>
   <component name="ProjectId" id="1SMJDivvdm7hmmaZIxxjQM6AMPW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -53,6 +60,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -141,7 +149,12 @@
       <workItem from="1571963647440" duration="7310000" />
       <workItem from="1571977692127" duration="8104000" />
       <workItem from="1571991668764" duration="2102000" />
-      <workItem from="1572227490832" duration="9023000" />
+      <workItem from="1572227490832" duration="9591000" />
+      <workItem from="1572395780846" duration="479000" />
+      <workItem from="1572400770843" duration="6660000" />
+      <workItem from="1572420686000" duration="72000" />
+      <workItem from="1572420774640" duration="2932000" />
+      <workItem from="1572423757902" duration="2683000" />
     </task>
     <servers />
   </component>
@@ -170,19 +183,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/Chat.java</url>
-          <line>181</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/ClientMessage.java</url>
           <line>3</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="11" />
+          <line>36</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

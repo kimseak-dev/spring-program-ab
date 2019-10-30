@@ -33,7 +33,8 @@ public class BotController {
 
     @RequestMapping(value = "/post/chat/anylse", method = RequestMethod.POST)
     public Message postChatAnalyseToken(@RequestBody ClientMessage clientMessage){
-        String response = chatSession.multisentenceRespond(clientMessage.getText());
+
+        String response = chatSession.multisentenceRespond(clientMessage.getCode()+clientMessage.getText());
         System.out.println(response);
         Message msg = new Message();
         msg.anylseData(response);

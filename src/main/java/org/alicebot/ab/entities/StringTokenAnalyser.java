@@ -1,6 +1,5 @@
 package org.alicebot.ab.entities;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -8,9 +7,7 @@ import java.util.regex.Pattern;
 
 public class StringTokenAnalyser {
 
-
     private String tokenString;
-
 
     public StringTokenAnalyser(String tokenString) {
         this.tokenString = tokenString;
@@ -24,40 +21,11 @@ public class StringTokenAnalyser {
         this.tokenString = tokenString;
     }
 
-    public List<Product> getProductList() {
 
-        List<Product>  list= new ArrayList<Product>();
-
-        String productTokenString = getProductTag("products");
-
-
-
-        Pattern pattern = Pattern.compile("<product>(.*?)</product>", Pattern.DOTALL);
-        Matcher matcher = pattern.matcher(tokenString);
-        while (matcher.find()) {
-            System.out.println(matcher.group(1));
-            String data = matcher.group(1);
-
-            Product product = new Product();
-            product.setCode(getTag(data, "code"));
-            product.setImgURL(getTag(data, "img"));
-            product.setText(getTag(data, "txt"));
-            list.add(product);
-        }
-       return list;
-    }
-
-    public String getProductTag(String tag){
-        Pattern pattern = Pattern.compile("<"+ tag +">(.*?)</" + tag +">", Pattern.DOTALL);
-        Matcher matcher = pattern.matcher(tokenString);
-        while (matcher.find()) {
-            System.out.println(matcher.group(1));
-            return  matcher.group(1);
-        }
-        return  "";
-    }
-
-    public String getTag(String data, String tag) {
+    // @desc: string token tag
+    // @param: tag
+    // @auth: seak
+    public String getTagTokenString(String data, String tag) {
         Pattern pattern = Pattern.compile("<"+ tag +">(.*?)</" + tag +">", Pattern.DOTALL);
         Matcher matcher = pattern.matcher(data);
         while (matcher.find()) {
@@ -67,51 +35,78 @@ public class StringTokenAnalyser {
         return "";
     }
 
+    // @desc: product list
+    // @tag: products, product
+    // @auth: seak
+    public List<Product> getProductList() {
+        List<Product>  list= new ArrayList<Product>();
+        String productTokenString = getTagTokenString(tokenString, "products");
+        Pattern pattern = Pattern.compile("<product>(.*?)</product>", Pattern.DOTALL);
+        Matcher matcher = pattern.matcher(tokenString);
+        while (matcher.find()) {
+            System.out.println(matcher.group(1));
+            String data = matcher.group(1);
+            Product product = new Product();
+            product.setCode(getTagTokenString(data, "code"));
+            product.setImgURL(getTagTokenString(data, "img"));
+            product.setText(getTagTokenString(data, "txt"));
+            product.setButton(getTagTokenString(data, "button"));
+            list.add(product);
+        }
+       return list;
+    }
+
+    // @desc: user option list
+    // @tag: usropts, usropt
+    // @auth: seak
     public List<UserOption> getUserOptionList(){
-        return new ArrayList<UserOption>();
+        List<UserOption> list = new ArrayList<UserOption>();
+        String userOptionTokenString = getTagTokenString(tokenString, "usropts");
+        Pattern pattern = Pattern.compile("<usropt>(.*?)</usropt>", Pattern.DOTALL);
+        Matcher matcher = pattern.matcher(tokenString);
+        while (matcher.find()) {
+            System.out.println(matcher.group(1));
+            String data = matcher.group(1);
+            UserOption userOption = new UserOption();
+            userOption.setCode(getTagTokenString(data, "code"));
+            userOption.setText(getTagTokenString(data, "txt"));
+            list.add(userOption);
+        }
+        return list;
     }
 
+    // @desc: advertise product list
+    // @tag:  advertisements, advertisement
+    // @auth: seak
     public List<AdvertiseProduct> getAdvertiseList(){
-        return new ArrayList<AdvertiseProduct>();
-    }
-
-
-    // @desc: get context code
-    public String getContext() {
-        Pattern pattern = Pattern.compile("<context>(.*?)</context>", Pattern.DOTALL);
+        List<AdvertiseProduct> list = new ArrayList<AdvertiseProduct>();
+        String userOptionTokenString = getTagTokenString(tokenString, "advertisements");
+        Pattern pattern = Pattern.compile("<advertisement>(.*?)</advertisement>", Pattern.DOTALL);
         Matcher matcher = pattern.matcher(tokenString);
         while (matcher.find()) {
             System.out.println(matcher.group(1));
-            return matcher.group(1);
+            String data = matcher.group(1);
+            AdvertiseProduct advertiseProduct = new AdvertiseProduct();
+
+
+
+            list.add(advertiseProduct);
         }
-        return "";
+        return list;
     }
 
-
-    // @des: get Text
-    public String getText(){
-        Pattern pattern = Pattern.compile("<text>(.*?)</text>", Pattern.DOTALL);
-        Matcher matcher = pattern.matcher(tokenString);
-        while (matcher.find()) {
-            System.out.println(matcher.group(1));
-            return matcher.group(1);
-        }
-        return "";
+    // @desc: context
+    // @tag: context
+    // @auth: seak
+    public  String getContext(){
+        return getTagTokenString(tokenString, "context");
     }
 
-    // @desc: get Type
-    public String getMsgType(){
-        Pattern pattern = Pattern.compile("<type>(.*?)</type>", Pattern.DOTALL);
-        Matcher matcher = pattern.matcher(tokenString);
-        while (matcher.find()) {
-            System.out.println(matcher.group(1));
-            return matcher.group(1);
-        }
-        return "";
+    // @desc: text
+    // @tag: text
+    // @auth: seak
+    public  String getText(){
+        return getTagTokenString(tokenString, "text");
     }
-
-
-
-
 
 }

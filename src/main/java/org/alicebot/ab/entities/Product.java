@@ -5,7 +5,7 @@ public class Product {
     private  String code;
     private  String text;
     private String imgURL;
-    private String buttonOptionList;
+    private String button;
 
 
     public Product() {
@@ -15,7 +15,7 @@ public class Product {
         this.code = code;
         this.text = text;
         this.imgURL = imgURL;
-        this.buttonOptionList = buttonOptionList;
+        this.button = buttonOptionList;
     }
 
     public String getCode() {
@@ -42,11 +42,11 @@ public class Product {
         this.imgURL = imgURL;
     }
 
-    public String getButtonOptionList() {
-        return buttonOptionList;
+    public String getButton() {
+        return button;
     }
 
-    public void setButtonOptionList(String buttonOptionList) {
-        this.buttonOptionList = buttonOptionList;
+    public void setButton(String button) {
+        this.button = button;
     }
 }
