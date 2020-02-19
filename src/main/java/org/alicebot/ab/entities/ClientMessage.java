@@ -1,29 +1,20 @@
 package org.alicebot.ab.entities;
 
 public class ClientMessage {
-   private String  code;
+
    private String text;
+   private String  textCode;
    private String service;
-
-
-    public ClientMessage(String code, String text, String service) {
-        this.code = code;
-        this.text = text;
-        this.service = service;
-    }
+   private String context;
 
     public ClientMessage() {
-        code = "";
-        text = "";
-        service = "";
     }
 
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
+    public ClientMessage(String text, String textCode, String service, String context) {
+        this.text = text;
+        this.textCode = textCode;
+        this.service = service;
+        this.context = context;
     }
 
     public String getText() {
@@ -34,11 +25,27 @@ public class ClientMessage {
         this.text = text;
     }
 
+    public String getTextCode() {
+        return textCode;
+    }
+
+    public void setTextCode(String textCode) {
+        this.textCode = textCode;
+    }
+
     public String getService() {
         return service;
     }
 
     public void setService(String service) {
         this.service = service;
+    }
+
+    public String getContext() {
+        return context;
+    }
+
+    public void setContext(String context) {
+        this.context = context;
     }
 }

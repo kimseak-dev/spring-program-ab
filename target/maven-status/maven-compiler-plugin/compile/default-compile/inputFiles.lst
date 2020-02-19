@@ -1,5 +1,7 @@
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Stars.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/ParseState.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/Message.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/MessageType.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/utils/NetworkUtils.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/AIMLProcessorExtension.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Contact.java
@@ -7,6 +9,7 @@
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/utils/CalendarUtils.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Category.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/PreProcessor.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/StringTokenAnalyser.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/AIMLProcessor.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/utils/IOUtils.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Bot.java
@@ -17,6 +20,8 @@
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Sraix.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Nodemapper.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/MagicBooleans.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/AdvertiseProduct.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/Product.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Interval.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Graphmaster.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/NodemapperOperator.java
@@ -24,17 +29,19 @@
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/History.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Utilities.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/utils/MemoryUtils.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/UserOption.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Properties.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/ClientMessage.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/MainSpring.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/MagicNumbers.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Path.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Chat.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/AIMLWriter.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/utils/DomUtils.java
-/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/model/Message.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/MemStats.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/JapaneseTokenizer.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/MagicStrings.java
+/Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/entities/Button.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/AIMLMap.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Predicates.java
 /Users/acleda/Desktop/program-ab/src/main/java/org/alicebot/ab/Timer.java

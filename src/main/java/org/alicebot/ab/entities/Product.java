@@ -4,7 +4,7 @@ public class Product {
 
     private  String code;
     private  String text;
-    private String imgURL;
+    private String img;
     private String button;
 
 
@@ -14,7 +14,7 @@ public class Product {
     public Product(String code, String text, String imgURL, String buttonOptionList) {
         this.code = code;
         this.text = text;
-        this.imgURL = imgURL;
+        this.img = imgURL;
         this.button = buttonOptionList;
     }
 
@@ -34,12 +34,12 @@ public class Product {
         this.text = text;
     }
 
-    public String getImgURL() {
-        return imgURL;
+    public String getImg() {
+        return img;
     }
 
-    public void setImgURL(String imgURL) {
-        this.imgURL = imgURL;
+    public void setImg(String img) {
+        this.img = img;
     }
 
     public String getButton() {

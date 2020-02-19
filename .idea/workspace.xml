@@ -2,29 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af78a691-7b99-471d-950d-1040e6c4306a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/crypto/AES.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/CreditInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bots/acleda/aiml/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aiml/bot_profile.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bots/acleda/aiml/client_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aiml/client_profile.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bots/acleda/aimlif/bot_profile.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aimlif/bot_profile.aiml.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/acleda/aimlif/learnf.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/bots/acleda/aimlif/learnf.aiml.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program-ab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/program-ab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/AdvertiseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/AdvertiseProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/ClientMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/ClientMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/StringTokenAnalyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/StringTokenAnalyser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/UserOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/UserOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/program-ab.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/bot_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/bot_profile.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/client_profile.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aiml/client_profile.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/bot_profile.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/bot_profile.aiml.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/learnf.aiml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bots/acleda/aimlif/learnf.aiml.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLProcessorExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLProcessorExtension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/AIMLWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Bot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Graphmaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Graphmaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/History.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/JapaneseTokenizer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/JapaneseTokenizer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/JapaneseTokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/JapaneseTokenizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MagicBooleans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MagicBooleans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MagicNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MagicNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MagicStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MagicStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MainSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MainSpring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MemStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/MemStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Nodemapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Nodemapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/NodemapperOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/NodemapperOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/PCAIMLProcessorExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/PCAIMLProcessorExtension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/ParseState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/ParseState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Path.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/PreProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/PreProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Predicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Predicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Properties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Sraix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Sraix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/StarBindings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/StarBindings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Stars.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Stars.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Timer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Utilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/Utilities.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/controller/BotController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/AdvertiseProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/AdvertiseProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/ClientMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/ClientMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/StringTokenAnalyser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/StringTokenAnalyser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/UserOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/entities/UserOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/CalendarUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/CalendarUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/DomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/DomUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/IOUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/IOUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/MemoryUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/MemoryUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/NetworkUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/alicebot/ab/utils/NetworkUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/ch.qos.logback-logback-classic-jar-1.1.11.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/ch.qos.logback-logback-core-jar-1.1.11.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/com.fasterxml-classmate-jar-1.3.3.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/com.fasterxml.jackson.core-jackson-annotations-jar-2.8.0.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/com.fasterxml.jackson.core-jackson-core-jar-2.8.8.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/com.fasterxml.jackson.core-jackson-databind-jar-2.8.8.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/com.github.haggaishachar-program-ab-jar-v1.0.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/commons-codec-commons-codec-jar-1.10.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/javax.validation-validation-api-jar-1.1.0.Final.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/joda-time-joda-time-jar-2.3.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/net.reduls.sanmoku-sanmoku-feature-ex-jar-0.0.1.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/net.reduls.sanmoku-sanmoku-jar-0.0.5.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.httpcomponents-httpclient-jar-4.2.5.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.httpcomponents-httpcore-jar-4.4.6.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tomcat.embed-tomcat-embed-core-jar-8.5.14.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tomcat.embed-tomcat-embed-el-jar-8.5.14.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.apache.tomcat.embed-tomcat-embed-websocket-jar-8.5.14.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.hibernate-hibernate-validator-jar-5.3.5.Final.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.jboss.logging-jboss-logging-jar-3.3.1.Final.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.json-json-jar-20090211.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-jcl-over-slf4j-jar-1.7.5.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-jul-to-slf4j-jar-1.7.5.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-log4j-over-slf4j-jar-1.7.5.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-slf4j-api-jar-1.7.5.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.slf4j-slf4j-simple-jar-1.7.5.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-aop-jar-4.3.8.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-beans-jar-4.3.8.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-context-jar-4.3.8.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-core-jar-4.3.8.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-expression-jar-4.3.8.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-web-jar-4.3.8.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework-spring-webmvc-jar-4.3.8.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.boot-spring-boot-autoconfigure-jar-1.5.3.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.boot-spring-boot-jar-1.5.3.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.boot-spring-boot-starter-jar-1.5.3.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.boot-spring-boot-starter-logging-jar-1.5.3.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.boot-spring-boot-starter-tomcat-jar-1.5.3.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.springframework.boot-spring-boot-starter-web-jar-1.5.3.RELEASE.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-maven-plugin-markers/org.yaml-snakeyaml-jar-1.17.marker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/program-ab-2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/program-ab-2.0.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="program-ab" />
@@ -69,7 +167,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -154,7 +253,45 @@
       <workItem from="1572400770843" duration="6660000" />
       <workItem from="1572420686000" duration="72000" />
       <workItem from="1572420774640" duration="2932000" />
-      <workItem from="1572423757902" duration="2683000" />
+      <workItem from="1572423757902" duration="2763000" />
+      <workItem from="1572482526604" duration="447000" />
+      <workItem from="1572485565084" duration="401000" />
+      <workItem from="1572490299697" duration="554000" />
+      <workItem from="1572512796325" duration="186000" />
+      <workItem from="1572570421623" duration="164000" />
+      <workItem from="1572572500349" duration="989000" />
+      <workItem from="1572577509741" duration="252000" />
+      <workItem from="1572831214833" duration="3805000" />
+      <workItem from="1572936761414" duration="293000" />
+      <workItem from="1575353116518" duration="2423000" />
+      <workItem from="1575419895312" duration="1769000" />
+      <workItem from="1575422110093" duration="342000" />
+      <workItem from="1575422488546" duration="13847000" />
+      <workItem from="1575439380155" duration="1126000" />
+      <workItem from="1575440882621" duration="4839000" />
+      <workItem from="1575603464118" duration="1135000" />
+      <workItem from="1576723884432" duration="2987000" />
+      <workItem from="1576802121281" duration="547000" />
+      <workItem from="1577062327780" duration="1002000" />
+      <workItem from="1577169092856" duration="918000" />
+      <workItem from="1577249510145" duration="2268000" />
+      <workItem from="1577320713504" duration="3655000" />
+      <workItem from="1577326582228" duration="3626000" />
+      <workItem from="1577679470207" duration="1290000" />
+      <workItem from="1577930045539" duration="3559000" />
+      <workItem from="1578018587015" duration="180000" />
+      <workItem from="1578276859449" duration="1655000" />
+      <workItem from="1578291670961" duration="3014000" />
+      <workItem from="1578300442127" duration="112000" />
+      <workItem from="1578453017853" duration="185000" />
+      <workItem from="1578453222651" duration="4000" />
+      <workItem from="1578453232057" duration="1998000" />
+      <workItem from="1578638438806" duration="2126000" />
+      <workItem from="1579573024278" duration="1401000" />
+      <workItem from="1579682274094" duration="1812000" />
+      <workItem from="1580091847994" duration="2135000" />
+      <workItem from="1580177700474" duration="1066000" />
+      <workItem from="1581409756425" duration="5000" />
     </task>
     <servers />
   </component>
@@ -183,14 +320,29 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/entities/ClientMessage.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="8" />
+          <line>65</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/alicebot/ab/controller/BotController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

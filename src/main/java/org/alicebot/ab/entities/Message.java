@@ -3,6 +3,7 @@ package org.alicebot.ab.entities;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -56,7 +57,7 @@ public class Message {
     }
 
     public void setProductionList(List<Product> productionList) {
-        this.productionList = productionList;
+        this.productionList = Collections.unmodifiableList(productionList);
     }
 
     public List<UserOption> getUserOptionList() {
@@ -92,8 +93,5 @@ public class Message {
         userOptionList = stringTokenAnalyser.getUserOptionList();
         advertiseList = stringTokenAnalyser.getAdvertiseList();
         date = new Date();
-
-
-
     }
 }

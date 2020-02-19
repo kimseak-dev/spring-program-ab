@@ -48,7 +48,7 @@ public class StringTokenAnalyser {
             String data = matcher.group(1);
             Product product = new Product();
             product.setCode(getTagTokenString(data, "code"));
-            product.setImgURL(getTagTokenString(data, "img"));
+            product.setImg(getTagTokenString(data, "img"));
             product.setText(getTagTokenString(data, "txt"));
             product.setButton(getTagTokenString(data, "button"));
             list.add(product);
